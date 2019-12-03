@@ -43,7 +43,7 @@ class UI {
         bids: "158"
       },
       {
-        title: "McDonalds is entering the fried shicken sandwich wars",
+        title: "Grizly Bear is entering the fried shicken sandwich wars",
         published: "2019-12-19",
         site: "CNN",
         adgroup: "BBC",
@@ -79,7 +79,7 @@ class UI {
     var parent = document.querySelector("#article-list"),
       items = parent.querySelectorAll("tr"),
       loadMoreBtn = document.querySelector("#load-more-comments"),
-      maxItems = 4,
+      maxItems = 3,
       hiddenClass = "visually-hidden";
 
     [].forEach.call(items, function(item, idx) {
