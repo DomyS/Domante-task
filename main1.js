@@ -41,6 +41,13 @@ class UI {
         site: "CNN",
         adgroup: "BBC",
         bids: "158"
+      },
+      {
+        title: "McDonalds is entering the fried shicken sandwich wars",
+        published: "2019-12-19",
+        site: "CNN",
+        adgroup: "BBC",
+        bids: "1588"
       }
     ];
 
