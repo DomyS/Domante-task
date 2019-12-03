@@ -1,4 +1,3 @@
-
 class Article {
   constructor(title, published, site, adgroup, bids) {
     this.title = title;
@@ -21,6 +20,27 @@ class UI {
         site: "CNN",
         adgroup: "CNN",
         bids: "25"
+      },
+      {
+        title: "Trump hits out at Macron remark",
+        published: "2019-11-19",
+        site: "BBC",
+        adgroup: "BBC",
+        bids: "125"
+      },
+      {
+        title: "Teaser of new James Bond movie released",
+        published: "2019-12-19",
+        site: "CNN",
+        adgroup: "BBC",
+        bids: "148"
+      },
+      {
+        title: "McDonalds is entering the fried shicken sandwich wars",
+        published: "2019-11-19",
+        site: "CNN",
+        adgroup: "BBC",
+        bids: "158"
       }
     ];
 
@@ -52,7 +72,7 @@ class UI {
     var parent = document.querySelector("#article-list"),
       items = parent.querySelectorAll("tr"),
       loadMoreBtn = document.querySelector("#load-more-comments"),
-      maxItems = 3,
+      maxItems = 4,
       hiddenClass = "visually-hidden";
 
     [].forEach.call(items, function(item, idx) {
