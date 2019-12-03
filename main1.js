@@ -1,4 +1,3 @@
-// book class: represents a book
 
 class Article {
   constructor(title, published, site, adgroup, bids) {
